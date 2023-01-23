@@ -1,0 +1,23 @@
+/* basic styles for black background and pointer cursor */
+body {
+	margin: 0;
+}
+
+canvas {
+    cursor: pointer;
+    position: absolute;
+}
+
+.button{
+    background-color: rgba(0, 0, 0, 0.15); 
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    width: 10px;
+    height: 20px;
+  }
